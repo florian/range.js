@@ -1,4 +1,4 @@
-# range.js – JavaScript's missing range function
+# range.js – JavaScript's missing range function [![Build Status](https://travis-ci.org/js-coder/range.js.png?branch=master)](https://travis-ci.org/js-coder/range.js)
 
 Features:
 - The browser and node are both supported.
