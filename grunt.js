@@ -9,6 +9,11 @@ module.exports = function (grunt) {
 			}
 		},
 
+		watch: {
+			files: ['lib/*', 'spec/*'],
+			tasks: 'test'
+		}
+
 	});
 
 	grunt.loadNpmTasks('grunt-mocha');
