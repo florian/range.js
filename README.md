@@ -8,3 +8,15 @@ Features:
 - Plain syntax `range('a', 'z')` and Ruby-style `range('a..z')`.
 - Reversed ranges.
 - Ranges with steps.
+
+## Usage
+
+- **Node**: `$ npm install range.js`
+
+  ```js
+  var range = require('range.js');
+  ```
+
+- **Browser:** Grab lib/strukt.js and include it in your HTML document.
+
+  If an AMD or CommonJS loader is present it will be used, otherwise `range` is assigned to `window.range`.
