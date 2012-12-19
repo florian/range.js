@@ -77,3 +77,18 @@ range('1..5', 2); // range(1, 5, 2)
 // Exclusive ranges:
 range('1...5'); // [1, 2, 3, 4]
 ```
+
+- - -
+
+## Test suite
+The test suite uses the [mocha](http://visionmedia.github.com/mocha) testing framework and the [chai](http://chaijs.com) assertion library.
+
+Running the tests from the command line:
+
+```sh
+$ git clone git://github.com/js-coder/struct.js.git && cd struct.js
+$ npm install
+$ grunt test
+```
+
+Clone this repository, then visit *./spec/index.html* in your browser.
