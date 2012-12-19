@@ -34,3 +34,46 @@ range('from..to', step);
 ```
 
 For convience, the rest of this documentation will use the plain syntax.
+
+## Numeric ranges
+
+```javascript
+range(1, 5); // [1, 2, 3, 4, 5]
+range(-2, 2); // [-2, -1, 0, 1, 2]
+range(0, 0.5, 0.1); // Approximately, JS floats are not exact: [0.1, 0.2, 0.3, 0.4, 0.5]
+```
+
+## Letter ranges
+
+```js
+range('a', 'd'); // ['a', 'b', 'c', 'd']
+range('A', 'D'); // ['A', 'B', 'C', 'D']
+range('y', 'B'); // ['y', 'z', 'A', 'B']
+range('Y', 'b'); // ['Y', 'Z', 'a', 'b']
+```
+
+## Ranges with steps
+
+```js
+range(0, 9, 3); // [0, 3, 6, 9]
+range('a', 'e', 2); // ['a', 'c', 'e']
+```
+
+## Reversed ranges
+```js
+range(5, 0); // [5, 4, 3, 2, 1, 0]
+range('e', 'a'); ['e', 'd', 'c', 'b', 'a']
+```
+
+## Ruby style syntax
+
+```js
+range('1..5'); // range(1, 5)
+range('a..z'); // range('a', 'z')
+
+// Steps:
+range('1..5', 2); // range(1, 5, 2)
+
+// Exclusive ranges:
+range('1...5'); // [1, 2, 3, 4]
+```
