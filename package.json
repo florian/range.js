@@ -1,0 +1,22 @@
+{
+	"name": "range.js",
+	"description": "JavaScript's missing range function.",
+	"version": "1.0.0",
+	"license": "MIT/X11",
+	"author": "Florian H.",
+	"main": "lib/range.js",
+	"scripts": {
+		"test": "grunt test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/js-coder/range.js.git"
+	},
+	"bugs": {
+		"url" : "http://github.com/js-coder/range.js/issues"
+	},
+	"devDependencies": {
+		"grunt": "~0.3",
+		"grunt-mocha": "~0.1"
+	}
+}
