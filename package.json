@@ -3,7 +3,7 @@
 	"description": "JavaScript's missing range function.",
 	"version": "1.0.0",
 	"license": "MIT/X11",
-	"author": "Florian H.",
+	"author": "Florian H. <jscoderr@gmail.com>",
 	"main": "lib/range.js",
 	"scripts": {
 		"test": "grunt test"
