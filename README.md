@@ -87,9 +87,9 @@ The test suite uses the [mocha](http://visionmedia.github.com/mocha) testing fra
 Running the tests from the command line:
 
 ```sh
-$ git clone git://github.com/js-coder/struct.js.git && cd struct.js
+$ git clone git://github.com/js-coder/range.js.git && cd range.js
 $ npm install
 $ grunt test
 ```
 
-Clone this repository, then visit *./spec/index.html* in your browser.
+To run the tests in your browser, Clone this repository, and visit *./spec/index.html*.
