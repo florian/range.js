@@ -93,3 +93,14 @@ $ grunt test
 ```
 
 To run the tests in your browser, Clone this repository, and visit *./spec/index.html*.
+
+
+- - -
+
+## Todo
+
+- Add benchmarks
+- Improve performance by predefining the length
+- Add charCode ranges
+- Add `range.equals`
+- Add `range.overlaps`
