@@ -1,7 +1,7 @@
 {
 	"name": "range.js",
 	"description": "JavaScript's missing range function.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT/X11",
 	"author": "Florian H.",
 	"main": "lib/range.js",
