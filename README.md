@@ -12,15 +12,34 @@ Features:
 
 ## Usage
 
-- **Node**: `$ npm install range.js`
+### Node
 
-  ```js
-  var range = require('range.js');
-  ```
+```sh
+$ npm install range.js
+```
 
-- **Browser:** Grab lib/strukt.js and include it in your HTML document.
+```js
+var range = require('range.js');
+```
 
-  If an AMD or CommonJS loader is present it will be used, otherwise `range` is assigned to `window.range`.
+### Browser
+
+Grab lib/strukt.js and include it in your HTML document. If an AMD or CommonJS loader is present it will be used, otherwise `range` is assigned to `window.range`.
+
+- - -
+
+In case you are using [component](https://github.com/component/component) (you should, it's awesome!):
+
+```sh
+$ component install js-coder/range.js
+```
+
+```js
+var range = require('range.js');
+```
+
+- - -
+
 
 ## Syntax
 
