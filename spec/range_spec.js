@@ -78,6 +78,22 @@ describe('range', function () {
         expect(range('0..9', 3)).to.eql(range(0, 9, 3));
     });
 
+    describe('equals', function () {
+        it('returns true when ranges are equal', function () {
+            expect(range.equals(range(1, 5), range(1, 5))).to.be.true;
+            expect(range.equals(range(-5, 5), range(-5, 5))).to.be.true;
+            expect(range.equals(range(0.1, 1, 0.1), range(0.1, 1, 0.1))).to.be.true;
+            expect(range.equals(range('a..z'), range('a..z'))).to.be.true;
+        });
+
+        it("returns false when ranges aren't equal", function () {
+            expect(range.equals(range(1, 5), range(1, 6))).to.be.false;
+            expect(range.equals(range(-5, 5), range(-5, 6))).to.be.false;
+            expect(range.equals(range(0.1, 1, 0.1), range(0.1, 1, 0.2))).to.be.false;
+            expect(range.equals(range('a..z'), range('a..y'))).to.be.false;
+        });
+    });
+
     describe('overlaps', function () {
         it('returns true when ranges overlap', function () {
             expect(range.overlaps(range(1, 5), range(2, 6))).to.be.true;
