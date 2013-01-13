@@ -88,6 +88,9 @@ describe('range', function () {
 
         it("returns false when ranges don't overlap", function () {
             expect(range.overlaps(range(1, 5), range(6, 10))).to.be.false;
+            expect(range.overlaps(range(6, 10), range(1, 5))).to.be.false;
+            expect(range.overlaps(range('a..d'), range('e..f'))).to.be.false;
+            expect(range.overlaps(range('e..f'), range('a..d'))).to.be.false;
         });
     });
 });
