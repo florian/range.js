@@ -6,5 +6,5 @@
 	"keywords": ["range"],
 	"license": "MIT",
 	"scripts": ["lib/range.js"],
-	"main": ["lib/range.js"]
+	"main": "lib/range.js"
 }
