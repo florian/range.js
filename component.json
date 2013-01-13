@@ -6,8 +6,5 @@
 	"keywords": ["range"],
 	"license": "MIT",
 	"scripts": ["lib/range.js"],
-	"main": ["lib/range.js"],
-	"dependencies": {
-		"component/mean": "*"
-	}
+	"main": ["lib/range.js"]
 }
