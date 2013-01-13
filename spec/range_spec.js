@@ -77,4 +77,17 @@ describe('range', function () {
         expect(range('a..z', 2)).to.eql(range('a', 'z', 2));
         expect(range('0..9', 3)).to.eql(range(0, 9, 3));
     });
+
+    describe('overlaps', function () {
+        it('returns true when ranges overlap', function () {
+            expect(range.overlaps(range(1, 5), range(2, 6))).to.be.true;
+            expect(range.overlaps(range(2, 6), range(1, 5))).to.be.true;
+            expect(range.overlaps(range('a..z'), range('e..f'))).to.be.true;
+            expect(range.overlaps(range('e..f'), range('a..z'))).to.be.true;
+        });
+
+        it("returns false when ranges don't overlap", function () {
+            expect(range.overlaps(range(1, 5), range(6, 10))).to.be.false;
+        });
+    });
 });
