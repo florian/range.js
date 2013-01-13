@@ -79,6 +79,27 @@ range('1..5', 2); // range(1, 5, 2)
 range('1...5'); // [1, 2, 3, 4]
 ```
 
+## `range.equals(rangeA, rangeB)`
+
+Compares ranges by value.
+
+```js
+var a = range(1, 5);
+var b = range(1, 5);
+var c = range('a..z');
+
+range.equals(a, b); // true
+range.equals(a, c); // false
+```
+
+## `range.overlaps(rangeA, rangeB)`
+
+```js
+range.overlaps(range('a..z'), range('e..f')); // true
+range.overlaps(range(1, 10), range(1, 9)); // true
+range.overlaps(range(1, 5), range(6, 10)); // false
+```
+
 - - -
 
 ## Test suite
