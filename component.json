@@ -1,10 +1,14 @@
 {
-	"name": "range.js",
-	"repo": "js-coder/range.js",
-	"description": "JavaScript's missing range function.",
-	"version": "1.1.0",
-	"keywords": ["range"],
-	"license": "MIT",
-	"scripts": ["lib/range.js"],
-	"main": "lib/range.js"
+  "name": "range.js",
+  "repo": "js-coder/range.js",
+  "description": "JavaScript's missing range function.",
+  "version": "1.1.0",
+  "keywords": [
+    "range"
+  ],
+  "license": "MIT",
+  "scripts": [
+    "lib/range.js"
+  ],
+  "main": "lib/range.js"
 }
