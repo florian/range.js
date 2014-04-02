@@ -24,7 +24,7 @@ var range = require('range.js');
 
 ### Browser
 
-Grab [lib/strukt.js](https://github.com/js-coder/range.js/blob/master/lib/range.js) and include it in your HTML document. If an AMD or CommonJS loader is present it will be used, otherwise `range` is assigned to `window.range`.
+Grab [lib/range.js](https://github.com/js-coder/range.js/blob/master/lib/range.js) and include it in your HTML document. If an AMD or CommonJS loader is present it will be used, otherwise `range` is assigned to `window.range`.
 
 - - -
 
