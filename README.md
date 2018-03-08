@@ -1,4 +1,4 @@
-# range.js – JavaScript's missing range function [![Build Status](https://travis-ci.org/js-coder/range.js.png?branch=master)](https://travis-ci.org/js-coder/range.js)
+# range.js – JavaScript's missing range function [![Build Status](https://travis-ci.org/florian/range.js.png?branch=master)](https://travis-ci.org/florian/range.js)
 
 [![CDNJS](https://img.shields.io/cdnjs/v/range.js.svg)](https://cdnjs.com/libraries/range.js)
 
