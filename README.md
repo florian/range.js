@@ -124,7 +124,7 @@ range.overlaps(range(1, 5), range(6, 10)); // false
 - - -
 
 ## Test suite
-The test suite uses the [mocha](http://visionmedia.github.com/mocha) testing framework and the [chai](http://chaijs.com) assertion library.
+The test suite uses the [mocha](http://mochajs.org/) testing framework and the [chai](http://chaijs.com) assertion library.
 
 Running the tests from the command line:
 
